@@ -14,21 +14,20 @@ body{
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 100px;
+    gap: 6.25rem;
     background-color:#f4d04e;
-    max-width: 1440px;
-    min-width: 320px;
-    width:100%
+    max-width: 90rem; 
 }
-.container{
-    width:360px;
+.container{ 
+    width:23.5rem;
+    /* max-width: 23.5rem; */
     background-color: #ffffff;
     display: flex;
     flex-direction: column;
     gap: 1.3em;
     border: 2px solid #4b3a3a;
     padding: 1.2em;
-    border-radius: 30px;
+    border-radius: 1.875rem;
     box-shadow: 10px 10px ;
     margin-top: 10em;
 }
@@ -43,7 +42,7 @@ body{
 }
 .btn{
     background-color: #f4d04e;
-    width: 90px;
+    width: 5.625rem;
     padding: 0.5em;
     border-radius: 7px;
     text-align: center;
@@ -63,11 +62,16 @@ body{
     order: -1; 
 } 
 h1{
-    font-size: 1.5rem;
+    font-size: 1.8rem;
+}
+h1:hover,
+h1:focus{
+    color:#f4d04e ;
+    cursor: pointer;
 }
 .attribution { font-size: 1.3rem; }
 .attribution a {
     color: hsl(228, 45%, 44%);
     text-decoration: none;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family:Georgia, 'Times New Roman', Times, serif
 }
